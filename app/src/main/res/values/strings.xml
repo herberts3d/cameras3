@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">LocalCam Viewer</string>
+    <string name="settings_title">Configurar Câmeras</string>
+
+    <string name="btn_configure">Configurar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="header_subtitle">RTSP UDP · Rede Local / Tailscale</string>
+
+    <string name="cd_unmute">Ligar áudio</string>
+    <string name="cd_mute">Desligar áudio</string>
+    <string name="cd_refresh">Reconectar câmera</string>
+    <string name="cd_expand">Expandir ou restaurar câmera</string>
+    <string name="cd_settings">Abrir configurações</string>
+    <string name="cd_back">Voltar</string>
+
+    <string name="status_disabled">Desativada</string>
+    <string name="status_unconfigured">Sem IP</string>
+    <string name="status_connecting">Conectando…</string>
+    <string name="status_live">Ao vivo</string>
+    <string name="status_disconnected">Desconectada</string>
+    <string name="status_error">Erro</string>
+
+    <string name="msg_camera_disabled">Câmera desativada nas configurações.</string>
+    <string name="msg_tap_to_configure">Toque aqui para configurar IP, usuário e senha.</string>
+    <string name="msg_connecting_udp">Conectando via RTSP (UDP)…</string>
+    <string name="msg_stream_ended">Transmissão encerrada. Toque para reconectar.</string>
+    <string name="msg_connection_error">Falha na conexão (%1$s).\nVerifique Wi-Fi ou Tailscale, IP, porta e senha.\nToque para tentar novamente.</string>
+
+    <string name="section_cam1">Câmera 1</string>
+    <string name="section_cam2">Câmera 2</string>
+    <string name="label_enabled">Ativar câmera</string>
+    <string name="hint_name">Nome da câmera (ex: Portão)</string>
+    <string name="hint_ip">Endereço IP (ex: 192.168.0.10)</string>
+    <string name="hint_port">Porta RTSP (ex: 554)</string>
+    <string name="hint_path">Caminho RTSP (ex: /onvif1)</string>
+    <string name="hint_user">Usuário (ex: admin)</string>
+    <string name="hint_pass">Senha</string>
+
+    <string name="settings_security_note">As senhas são criptografadas com Android Keystore (EncryptedSharedPreferences) e nunca saem do aparelho. O player usa RTSP sobre UDP (sem forçar TCP), compatível com rede local e Tailscale.</string>
+
+    <string name="error_ip_required">Informe o IP da câmera</string>
+    <string name="error_port_invalid">Porta deve ser entre 1 e 65535</string>
+    <string name="msg_saved_securely">Configurações salvas com segurança no aparelho.</string>
+</resources>
